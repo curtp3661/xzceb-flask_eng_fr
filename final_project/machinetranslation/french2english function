@@ -1,0 +1,13 @@
+#did not give me option to load screenshot so here is the funtion
+
+'''
+
+def french_to_english(french_text):
+    '''
+    #code for french to english
+    '''
+    translation = language_translator.translate(text=french_text, model_id='fr-en').get_result()
+    english_text = translation['translations'][0]['translation']
+    return english_text
+    
+ '''
